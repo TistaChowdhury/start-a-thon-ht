@@ -21,8 +21,15 @@ body {
   .sticky-aside {
     flex: 1;
     padding: 20px;
+    /* position: fixed; */
+    top: 0;
+    bottom: 0;
+    /* width: 250px; */
+    overflow-y: hidden;
+    overflow-x: hidden;
     /* background-color: #f4f4f4; */
     position: sticky;
-    top: 20px; /* Adjust this value as needed */
+    height: 500px;
+    top: 20px; 
   }
   
